@@ -2025,6 +2025,7 @@ pub enum CreateInvoicePaymentSettingsPaymentMethodTypes {
     AchCreditTransfer,
     AchDebit,
     AcssDebit,
+    AmazonPay,
     AuBecsDebit,
     BacsDebit,
     Bancontact,
@@ -2058,6 +2059,7 @@ impl CreateInvoicePaymentSettingsPaymentMethodTypes {
             }
             CreateInvoicePaymentSettingsPaymentMethodTypes::AchDebit => "ach_debit",
             CreateInvoicePaymentSettingsPaymentMethodTypes::AcssDebit => "acss_debit",
+            CreateInvoicePaymentSettingsPaymentMethodTypes::AmazonPay => "amazon_pay",
             CreateInvoicePaymentSettingsPaymentMethodTypes::AuBecsDebit => "au_becs_debit",
             CreateInvoicePaymentSettingsPaymentMethodTypes::BacsDebit => "bacs_debit",
             CreateInvoicePaymentSettingsPaymentMethodTypes::Bancontact => "bancontact",
